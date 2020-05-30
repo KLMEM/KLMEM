@@ -1,0 +1,75 @@
+.App {
+  text-align: center;
+}
+
+body {
+  margin: 0;
+  font: 1rem sans-serif;
+}
+
+.content {
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-flow: column;
+  justify-content: center;
+  margin-top: 16px;
+}
+
+img {
+  max-width: 600px;
+  height: auto;
+  max-height: 600px;
+}
+
+h1,
+h2 {
+  position: absolute;
+  margin: 0;
+  width: 100%;
+  font-size: 50px;
+  text-align: center;
+  color: #ffffff;
+  -webkit-text-stroke: 3px black;
+  line-height: 1;
+}
+
+h1 {
+  top: 16px;
+}
+
+h2 {
+  bottom: 24px;
+}
+
+.form__inputs,
+.form__btns {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.form__inputs {
+  margin-bottom: 12px;
+}
+
+.form__inputs input,
+.form__btns .btn  {
+  border-radius: 2px;
+}
+
+
+.btn-primary {
+  background: #10e309;
+}
+
+.btn-primary:hover {
+  background: #07b240;
+}
+
+.btn-danger {
+  background: #d63031;
+}
+
+.btn-danger:hover {
+  background: #b02324;
+}
