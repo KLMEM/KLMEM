@@ -2,7 +2,7 @@
 
 Instrukcja
 1. Trzeba pobać wszystkie pliki
-2. Pobieramy brakującą technologie
+2. Pobieramy brakującą technologie w folderze serv
 ```sh
 npm install
 ```
@@ -10,7 +10,12 @@ npm install
 ```sh
 npm run start
 ```
-4. W przeglądarce odpalamy naszą aplikacje przez link:
+3. Pobieramy brakującą technologie w folderze front
 ```sh
-localhost:3000
+npm install
 ```
+4.Następnie uruchamiamy za pomocą polecenia:
+```sh
+npm run start
+```
+
